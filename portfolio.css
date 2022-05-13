@@ -1,10 +1,11 @@
 		html{
 			scroll-behavior: smooth;
 			box-sizing: border-box;
-			overflow-x: hidden;
+			margin: 0;
+			width: 100%;
+
 		}
 		*{
-			box-sizing: border-box;
 			margin: 0;
 			padding: 0;
 		}
@@ -82,7 +83,7 @@
 			background-color: #ccc;
 			width: 100%;
 			height: 100%;
-			padding-bottom: 10px;
+			box-sizing: border-box;
 
 		}
 		.loved_box{
@@ -134,16 +135,6 @@
 		}
 		.st{
 			position: relative;
-		}
-		.st::after{
-			position: absolute;
-			content: "";
-			height: 4px;
-			background-color: green;
-			width: 120px;
-			left: 70px;
-			top: 8px;
-			border-radius: 50px;
 		}
 		.skill_img{
 			display: flex;
@@ -337,6 +328,9 @@
      	margin-bottom: 30px;
      }
      @media only screen and (max-width: 768px) {
+     	html{
+     		overflow-x: hidden;
+     	}
      	.lets_work{
      		flex-direction: column;
      		height: 150px;
@@ -348,6 +342,18 @@
      		box-sizing: border-box;
 
      	}
+     	header{
+			background-color: #6A98F0;
+			color: white;
+			/*display: inline;*/
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top: 50px;
+			height: 100vh;
+			line-height: 1.9em;
+			width: 100vw;
+		}
      	form h1{
     	text-align: center;
     	margin-top: -20px;
