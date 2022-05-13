@@ -329,7 +329,13 @@
      }
      @media only screen and (max-width: 768px) {
      	html{
-     		overflow-x: hidden;
+     		width: 768px;
+     	}
+     	.about_me{
+     		width: 786px;
+     	}
+     	.contact{
+     		width: 768px;
      	}
      	.lets_work{
      		flex-direction: column;
@@ -338,7 +344,7 @@
      		margin-right: auto;
      		margin-left: auto;
      		display: flex;
-     		width: 600px;
+     		width: 768px;
      		box-sizing: border-box;
 
      	}
@@ -352,8 +358,12 @@
 			padding-top: 50px;
 			height: 100vh;
 			line-height: 1.9em;
-			width: 100vw;
+			width: 786px;
 		}
+		.loved_things{
+			width: 768px;
+		}
+
      	form h1{
     	text-align: center;
     	margin-top: -20px;
@@ -372,6 +382,7 @@
      	}
      	footer{
      		height: 70%;
+     		width: 786px;
      	}
      	.project_box_container, .blog_box_container{
      	grid-template-columns: 210px 210px;
@@ -392,6 +403,7 @@
      	height: 1110px;
      	padding-top: 20px;
      	border-radius: 10px;
+     	width: 768px;
      }
      .firstptext{
      	padding-left: 50px;
@@ -404,6 +416,7 @@
 		}
 		.contact{
 			height: 60%;
+			width: 768px;
 		}
 		form{
         background-color: #232323;
@@ -434,12 +447,16 @@
     }.lets_work h1{
     	font-size: 20px;
      }
+      .lets_work{
+      	width: 768px;
+      }
      .lets_work p{
      	width: 300px;
      	text-align: center;
      	font-size: 5px;
  }
 }
+
      .lets_work h1{
      	margin-right: 40px;
      }
