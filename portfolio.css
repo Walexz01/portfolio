@@ -6,7 +6,6 @@
 			box-sizing: border-box;
 			margin: 0;
 			padding: 0;
-			width: 100%;
 		}
 		.man_img{
 			width: 40vw;
@@ -289,13 +288,10 @@
     	position: fixed;
     	padding-top: 10px;
     	padding-bottom: 10px;
-    	z-index: 100;
     }
     .social_icon a i{
     	margin-top: 10px;
     	color: black;
-    	    	z-index: 100;
-
     }
     footer{
 			width: 100%;
@@ -338,7 +334,7 @@
      	box-sizing: border-box;
      	margin-bottom: 30px;
      }
-     @media only screen and (min-width: 768px) {
+     @media only screen and (max-width: 768px) {
      	.lets_work{
      		flex-direction: column;
      		height: 150px;
@@ -367,8 +363,6 @@
      	font-size: 20px;
      	width: 50px;
      	padding-left: 10px;
-     	    	z-index: 100;
-
      }
      .blog, .project{
      	height: 160vh;
@@ -385,7 +379,6 @@
 			margin-right: 0;
 		}
  }
- 
      .lets_work h1{
      	margin-right: 40px;
      }
