@@ -4,6 +4,9 @@
 			margin: 0;
 
 		}
+		body{
+			width: 100%;
+		}
 		*{
 			margin: 0;
 			padding: 0;
@@ -461,6 +464,10 @@
      	width: 300px;
      	text-align: center;
      	font-size: 5px;
+ }
+ html{
+ 	background-color: green;
+ 	border: 5px solid red;
  }
 }
 
