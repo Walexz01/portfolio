@@ -1,12 +1,9 @@
 		html{
 			scroll-behavior: smooth;
-			box-sizing: border-box;
 		}
 		*{
 			margin: 0;
 			padding: 0;
-			left: 0;
-			right: 0;
 		}
 		.man_img{
 			width: 40vw;
@@ -46,7 +43,7 @@
 		}
 		ul{
 			display: flex;
-			margin-right: 5px;
+			margin-right: 50px;
 		}
 		.firstptext{
 			padding-top: 110px;
@@ -57,7 +54,6 @@
 			/*display: inline;*/
 			display: flex;
 			justify-content: center;
-			left: 0;
 			align-items: center;
 			padding-top: 50px;
 			height: 100vh;
@@ -137,10 +133,10 @@
 		}
 		.skill_img{
 			display: flex;
-			margin-right: auto;
-			margin-left: auto;
+			align-items: center;
+			justify-content: center;
 			margin-top: 0px;
-			width: 50%
+			width: 100%
 		}
 		.skill h1{
 			text-align: center;
@@ -333,21 +329,15 @@
      	.about_me{
      		width: 100%;
      	}
-     	nav ul li a{
-     		font-size: 15px;
-     	}
-     	.logo{
-     		width: 150px;
-     	}
      	.about_me_img{
      		width: 300px;
      	}
      	nav{
-     		height: 30px;
-     		width: 100%;
+     		height: 50px;
+     		width: 100%
      	}
      	.contact{
-     		width: 100%;
+     		width: 768px;
      	}
      	.lets_work{
      		flex-direction: column;
@@ -382,13 +372,12 @@
     	margin-right: auto;
     	height: 30px;
     	margin-left: auto;
-    	font-size: 15px;
+    	font-size: 20px;
     	margin-bottom: 15px;
     	background: white;
     	width: 150px;
     	border-radius: 20px;
     	color: #6D83F2;
-    	padding-top: 10px;
     }
      	.do_btn{
      		margin-top: 10px;
@@ -425,7 +414,7 @@
 			margin-right: 20px;
 		}
 		ul{
-			margin-right: 7px;
+			margin-right: 0;
 		}
 		.contact{
 			height: 60%;
@@ -434,7 +423,7 @@
 		form{
         background-color: #232323;
         box-shadow: 0 0 10px 5px #191919;
-        width: 80%;
+        width:440px;
         height: 40%;
         padding: 10px 10px 0 10px;
         margin-left: auto;
@@ -446,14 +435,14 @@
     }
      input{
         margin-right: 10px;
-        width: 180px;
+        width: 200px;
         height: 25px;
         border-radius: 5px;
         border: 1px solid #F8F8F8;
         background-color: #eaeaea;
     }
      textarea{
-        width: 380px;
+        width: 420px;
         height: 180px;
         border-radius: 5px;
         background-color: #eaeaea;
