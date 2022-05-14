@@ -7,7 +7,6 @@
 		*{
 			margin: 0;
 			padding: 0;
-			border: 5px solid red;
 		}
 		.man_img{
 			width: 40vw;
@@ -142,13 +141,14 @@
 		.skill_img{
 			margin-right: auto;
 			margin-left: auto;
+			width: 500px;
 		}
 		.skill h1{
 			text-align: center;
 			padding-bottom: 60px;
 		}
 		.skill{
-			width: 100%;
+			width: 100vw;
 			height: 100%;
 			padding-top: 30px;
 			display: flex;
@@ -321,7 +321,7 @@
      	color: white;
      	box-sizing: border-box;
      	margin-bottom: 30px;
-     }
+     }/*
      @media only screen and (max-width: 768px) {
      	.lets_work{
      		flex-direction: column;
@@ -338,7 +338,7 @@
 			background-color: #6A98F0;
 			color: white;
 			/*display: inline;*/
-			display: flex;
+			/*display: flex;
 			justify-content: center;
 			align-items: center;
 			padding-top: 50px;
@@ -425,7 +425,7 @@
  	background-color: green;
  	border: 5px solid red;
  }
-}
+}*/
 
      .lets_work h1{
      	margin-right: 40px;
