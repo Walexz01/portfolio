@@ -313,7 +313,7 @@
      	box-sizing: border-box;
      	margin-bottom: 30px;
      }
-     @media only screen and (max-width: 768px) {
+     @media only screen and (max-width: 600px) {
      	.lets_work{
      		flex-direction: column;
      		height: 150px;
