@@ -29,14 +29,11 @@
 			list-style: none;
 			margin-right: 35px;
 		}
-		ul li a:last-child{
-			margin-right: 0;
-		}
 		nav{
 			display: flex;
 			background-color: rgba(0,0,0,0.7);
 			position: fixed;
-			width: 100vw;
+			width: 100%;
 			justify-content: space-between;
 			top: 0;
 			padding-bottom:  -100px;
@@ -47,7 +44,7 @@
 		}
 		ul{
 			display: flex;
-			margin-right: 50px;
+			margin-right: 5px;
 		}
 		.firstptext{
 			padding-top: 110px;
@@ -333,14 +330,21 @@
      	.about_me{
      		width: 100%;
      	}
+     	nav ul li a{
+     		font-size: 15px;
+     	}
+     	.logo{
+     		width: 150px;
+     	}
      	.about_me_img{
      		width: 300px;
      	}
      	nav{
-     		height: 50px;
+     		height: 30px;
+     		width: 100%;
      	}
      	.contact{
-     		width: 768px;
+     		width: 100%;
      	}
      	.lets_work{
      		flex-direction: column;
@@ -417,7 +421,7 @@
 			margin-right: 20px;
 		}
 		ul{
-			margin-right: 0;
+			margin-right: 7px;
 		}
 		.contact{
 			height: 60%;
