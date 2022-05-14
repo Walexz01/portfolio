@@ -140,10 +140,8 @@
 		margin-right: 20px;
 		}
 		.skill_img{
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			margin-top: 0px;
+			margin-right: auto;
+			margin-left: auto;
 		}
 		.skill h1{
 			text-align: center;
@@ -153,6 +151,9 @@
 			width: 100%;
 			height: 100%;
 			padding-top: 30px;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
 			background-color: white;
 		}		
 		header a{
@@ -218,7 +219,7 @@
         margin-top: 10px;
     }
     textarea{
-        width: 510px;
+        width: 500px;
         height: 180px;
         border-radius: 5px;
         background-color: #eaeaea;
@@ -229,7 +230,7 @@
     }
     input{
         margin-right: 10px;
-        width: 250px;
+        width: 220px;
         height: 25px;
         border-radius: 5px;
         border: 1px solid #F8F8F8;
@@ -260,18 +261,6 @@
     }
     .btn_sub{
         text-decoration: none;
-    }
-    form h1{
-    	text-align: center;
-    	margin-top: -20px;
-    	margin-right: auto;
-    	height: 30px;
-    	margin-left: auto;
-    	margin-bottom: 15px;
-    	background: white;
-    	width: 150px;
-    	border-radius: 20px;
-    	color: #6D83F2;
     }
     .social_icon{
     	display: flex;
@@ -353,13 +342,9 @@
 			justify-content: center;
 			align-items: center;
 			padding-top: 50px;
-			height: 100vh;
 			line-height: 1.9em;
-			width: 100%;
 		}
 		.about_me_all{
-			height: 90%
-			width: 40%;
 			padding-left: 30px;
 			margin-left: auto;
 			margin-right: auto;
@@ -368,27 +353,7 @@
 		}
 		.about_me_content{
 			display: inline-block;
-			width: 40%;
 		}
-		.about_me_img{
-		display: inline-block;
-		width: 30%;
-		height: 300px;
-		margin-right: 20px;
-		}
-     	form h1{
-    	text-align: center;
-    	margin-top: -20px;
-    	margin-right: auto;
-    	height: 30px;
-    	margin-left: auto;
-    	font-size: 20px;
-    	margin-bottom: 15px;
-    	background: white;
-    	width: 150px;
-    	border-radius: 20px;
-    	color: #6D83F2;
-    }
      	.do_btn{
      		margin-top: 10px;
      	}
@@ -407,12 +372,6 @@
      	padding-left: 10px;
      	z-index: 22;
      }
-     .blog, .project{
-     	height: 100%;
-     	padding-top: 20px;
-     	border-radius: 10px;
-     	width: 100%;
-     }
      .firstptext{
      	padding-left: 50px;
      }
@@ -424,7 +383,6 @@
 		}
 		.contact{
 			height: 60%;
-			width: 100%;
 		}
 		form{
         background-color: #232323;
@@ -456,7 +414,7 @@
     	font-size: 20px;
      }
       .lets_work{
-      	width: 100%;
+      	width: 90%;
       }
      .lets_work p{
      	width: 300px;
