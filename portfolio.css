@@ -1,9 +1,6 @@
 		html{
 			scroll-behavior: smooth;
 			box-sizing: border-box;
-			margin: 0;
-			width: 100%;
-
 		}
 		*{
 			margin: 0;
@@ -65,14 +62,15 @@
 			padding-top: 50px;
 			height: 100vh;
 			line-height: 1.9em;
-			width: 100vw;
+			width: 100%;
 		}
 		.loved_container{
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			margin-top: 40px;
+			margin-top: 4px;
 			flex-wrap: wrap;
+			padding-bottom: 20px;
 		}
 		.loved_things h1{
 			margin-top: 1px;
@@ -121,6 +119,7 @@
 			display: flex;
 			margin-left: auto;
 			margin-right: auto;
+			width: 100%;
 		
 		}
 		.about_me_content{
@@ -141,6 +140,7 @@
 			align-items: center;
 			justify-content: center;
 			margin-top: 0px;
+			width: 100%
 		}
 		.skill h1{
 			text-align: center;
@@ -174,7 +174,9 @@
 			grid-template-columns: 210px 210px 210px ;
 			grid-template-rows: 280px 280px;
 			grid-gap: 10px 10px;
-			justify-content: center; 
+			justify-content: center;
+			height: 100%;
+			width: 100% 
 		}
 
 		.project h1, .blog h1{
@@ -186,14 +188,14 @@
 		}
 		.project{
 			height: 110vh;
-			width: 100vw;
+			width: 100%;
 			padding-top: 10px;
 
 		}
 		 .blog{
 		 	padding-top: 5px;
 		 	height: 110vh;
-		 	width: 100vw;
+		 	width: 100%;
 		 }
 		 /*css for for form*/
     .contact{
@@ -287,8 +289,8 @@
     	color: black;
     }
     footer{
-    	width: 100vw;
-    	height: 60vh;
+    	width: 100%;
+    	height: 60%;
     	padding-top: 60px;
     	background-color: #ccc;
     }
@@ -328,11 +330,14 @@
      	margin-bottom: 30px;
      }
      @media only screen and (max-width: 768px) {
-     	html{
-     		width: 768px;
-     	}
      	.about_me{
-     		width: 786px;
+     		width: 100%;
+     	}
+     	.about_me_img{
+     		width: 300px;
+     	}
+     	nav{
+     		height: 50px;
      	}
      	.contact{
      		width: 768px;
@@ -344,7 +349,7 @@
      		margin-right: auto;
      		margin-left: auto;
      		display: flex;
-     		width: 768px;
+     		width: 100%;
      		box-sizing: border-box;
 
      	}
@@ -358,10 +363,10 @@
 			padding-top: 50px;
 			height: 100vh;
 			line-height: 1.9em;
-			width: 786px;
+			width: 100%;
 		}
 		.loved_things{
-			width: 768px;
+			width: 100%;
 		}
 
      	form h1{
@@ -382,7 +387,7 @@
      	}
      	footer{
      		height: 70%;
-     		width: 786px;
+     		width: 100%;
      	}
      	.project_box_container, .blog_box_container{
      	grid-template-columns: 210px 210px;
@@ -403,7 +408,7 @@
      	height: 1110px;
      	padding-top: 20px;
      	border-radius: 10px;
-     	width: 768px;
+     	width: 100%;
      }
      .firstptext{
      	padding-left: 50px;
@@ -416,7 +421,7 @@
 		}
 		.contact{
 			height: 60%;
-			width: 768px;
+			width: 100%;
 		}
 		form{
         background-color: #232323;
@@ -448,7 +453,7 @@
     	font-size: 20px;
      }
       .lets_work{
-      	width: 768px;
+      	width: 100%;
       }
      .lets_work p{
      	width: 300px;
