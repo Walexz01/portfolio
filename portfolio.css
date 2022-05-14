@@ -1,5 +1,8 @@
 		html{
 			scroll-behavior: smooth;
+			box-sizing: border-box;
+			margin: 0;
+
 		}
 		*{
 			margin: 0;
@@ -32,7 +35,7 @@
 			display: flex;
 			background-color: rgba(0,0,0,0.7);
 			position: fixed;
-			width: 100%;
+			width: 100vw;
 			justify-content: space-between;
 			top: 0;
 			padding-bottom:  -100px;
@@ -58,15 +61,14 @@
 			padding-top: 50px;
 			height: 100vh;
 			line-height: 1.9em;
-			width: 100%;
+			width: 1005;
 		}
 		.loved_container{
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			margin-top: 4px;
+			margin-top: 40px;
 			flex-wrap: wrap;
-			padding-bottom: 20px;
 		}
 		.loved_things h1{
 			margin-top: 1px;
@@ -77,6 +79,7 @@
 			background-color: #ccc;
 			width: 100%;
 			height: 100%;
+			padding-bottom: 40px;
 			box-sizing: border-box;
 
 		}
@@ -110,33 +113,36 @@
 			display: flex;
 			padding-top: 20px;
 			padding-bottom: 20px;
+			width: 100%;
+			height: 100%;
+
 		}
 		.about_me_all{
+			height: 90%
+			width: 40%;
+			padding-left: 30px;
 			display: flex;
+			justify-content: center;
 			margin-left: auto;
 			margin-right: auto;
-			width: 100%;
+			box-sizing: border-box;
 		
 		}
 		.about_me_content{
 			display: inline-block;
-			width: 300px;
+			width: 20%;
 		}
 		.about_me_img{
 		display: inline-block;
-		width: 300px;
-		height: 400px;
+		width: 200px;
+		height: 200px;
 		margin-right: 20px;
-		}
-		.st{
-			position: relative;
 		}
 		.skill_img{
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			margin-top: 0px;
-			width: 100%
 		}
 		.skill h1{
 			text-align: center;
@@ -170,9 +176,7 @@
 			grid-template-columns: 210px 210px 210px ;
 			grid-template-rows: 280px 280px;
 			grid-gap: 10px 10px;
-			justify-content: center;
-			height: 100%;
-			width: 100% 
+			justify-content: center; 
 		}
 
 		.project h1, .blog h1{
@@ -183,15 +187,17 @@
 			position: relative;
 		}
 		.project{
-			height: 110vh;
+			height: 100%;
 			width: 100%;
 			padding-top: 10px;
+		 	padding-bottom: 20px;
 
 		}
 		 .blog{
-		 	padding-top: 5px;
-		 	height: 110vh;
+		 	padding-top: 10px;
+		 	height: 100%;
 		 	width: 100%;
+		 	padding-bottom: 20px;
 		 }
 		 /*css for for form*/
     .contact{
@@ -201,7 +207,7 @@
         color: white;
         width: 100%;
         height: 70%;
-        padding-bottom:  50px
+        padding-bottom:  100px;
     }
     .input_nn{
         flex-direction: row;
@@ -232,13 +238,14 @@
         background-color: #232323;
         box-shadow: 0 0 10px 5px #191919;
         width:540px;
-        height: 60vh;
+        height: 60%;
         padding: 10px 10px 0 10px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 35px;
         border-radius: 10px;
         z-index: 1;
+        box-sizing: border-box;
     }
     #submit{
         width: 90px;
@@ -286,7 +293,7 @@
     }
     footer{
     	width: 100%;
-    	height: 60%;
+    	height: 100%;
     	padding-top: 60px;
     	background-color: #ccc;
     }
@@ -315,7 +322,7 @@
      	justify-content: space-around;
      	align-items: center;
      	background-color: #151C39;
-     	width: 900px;
+     	width: 70%;
      	margin-right: auto;
      	margin-left: auto;
      	height: 100px;
@@ -326,19 +333,6 @@
      	margin-bottom: 30px;
      }
      @media only screen and (max-width: 768px) {
-     	.about_me{
-     		width: 100%;
-     	}
-     	.about_me_img{
-     		width: 300px;
-     	}
-     	nav{
-     		height: 50px;
-     		width: 100%
-     	}
-     	.contact{
-     		width: 768px;
-     	}
      	.lets_work{
      		flex-direction: column;
      		height: 150px;
@@ -346,7 +340,7 @@
      		margin-right: auto;
      		margin-left: auto;
      		display: flex;
-     		width: 100%;
+     		width: 80%;
      		box-sizing: border-box;
 
      	}
@@ -362,10 +356,25 @@
 			line-height: 1.9em;
 			width: 100%;
 		}
-		.loved_things{
-			width: 100%;
+		.about_me_all{
+			height: 90%
+			width: 40%;
+			padding-left: 30px;
+			margin-left: auto;
+			margin-right: auto;
+			box-sizing: border-box;
+		
 		}
-
+		.about_me_content{
+			display: inline-block;
+			width: 40%;
+		}
+		.about_me_img{
+		display: inline-block;
+		width: 30%;
+		height: 300px;
+		margin-right: 20px;
+		}
      	form h1{
     	text-align: center;
     	margin-top: -20px;
@@ -381,10 +390,6 @@
     }
      	.do_btn{
      		margin-top: 10px;
-     	}
-     	footer{
-     		height: 70%;
-     		width: 100%;
      	}
      	.project_box_container, .blog_box_container{
      	grid-template-columns: 210px 210px;
@@ -402,7 +407,7 @@
      	z-index: 22;
      }
      .blog, .project{
-     	height: 1110px;
+     	height: 100%;
      	padding-top: 20px;
      	border-radius: 10px;
      	width: 100%;
@@ -414,7 +419,7 @@
 			margin-right: 20px;
 		}
 		ul{
-			margin-right: 0;
+			margin-right: 15px;
 		}
 		.contact{
 			height: 60%;
@@ -423,7 +428,7 @@
 		form{
         background-color: #232323;
         box-shadow: 0 0 10px 5px #191919;
-        width:440px;
+        width: 70%;
         height: 40%;
         padding: 10px 10px 0 10px;
         margin-left: auto;
@@ -434,15 +439,15 @@
         padding-bottom:  50px
     }
      input{
-        margin-right: 10px;
-        width: 200px;
+        margin-right: 50px;
+        width: 95%;
         height: 25px;
         border-radius: 5px;
         border: 1px solid #F8F8F8;
         background-color: #eaeaea;
     }
      textarea{
-        width: 420px;
+        width: 95%;
         height: 180px;
         border-radius: 5px;
         background-color: #eaeaea;
