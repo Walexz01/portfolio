@@ -7,6 +7,7 @@
 		*{
 			margin: 0;
 			padding: 0;
+            font-size: 25px;
 		}
 		.man_img{
 			width: 40%;
@@ -24,15 +25,12 @@
 			text-decoration: none;
 			position: relative;
 			color: white;			
-			font-size: 20px;
+			font-size: 25px;
 			border-bottom: 3px solid rgb(216, 29, 216);
 		}
 		ul li{
 			list-style: none;
 			margin-right: 35px;
-		}
-		ul li a:last-child{
-			margin-right: 0;
 		}
 		nav{
 			display: flex;
@@ -43,7 +41,7 @@
 			padding-bottom:  -100px;
 			left: 0;
 			right: 0;
-			height: 35px;
+			height: 50px;
 			z-index: 100;
 		}
 		ul{
@@ -85,8 +83,8 @@
 		}
 		.loved_box{
 			border: 1px solid white;
-			width: 280px;
-			height: 250px;
+			width: 300px;
+			height: 290px;
 			padding: 20px;
 			box-sizing: border-box; 
 			border-radius: 10px;
@@ -99,6 +97,8 @@
 		}
 		.loved_box p, .loved_box h2{
 			margin-top: 1px;
+                        font-size: 20px;
+
 		}
 		.loved_things h1, .loved_box h2 {
 			color: #6D83F2;
@@ -160,8 +160,8 @@
 		}
 		.project_box_container, .blog_box_container{
 			display: grid;
-			grid-template-columns: 210px 210px 210px ;
-			grid-template-rows: 280px 280px;
+			grid-template-columns: 230px 230px 230px ;
+			grid-template-rows: 290px 290px;
 			grid-gap: 10px 10px;
 			justify-content: center; 
 		}
@@ -190,8 +190,8 @@
         justify-content: center;
         background-color: #191919;
         color: white;
-        height: 70%;
-        padding-bottom:  50px
+        height: 90%;
+        padding-bottom:  90px
     }
     .input_nn{
         flex-direction: row;
@@ -201,18 +201,18 @@
         margin-top: 10px;
     }
     textarea{
-        width: 510px;
+        width: 590px;
         height: 180px;
         border-radius: 5px;
         background-color: #eaeaea;
     }
     input::placeholder,textarea::placeholder{
-        font-size: 15px;
+        font-size: 20px;
         color: black
     }
     input{
         margin-right: 10px;
-        width: 250px;
+        width: 290px;
         height: 25px;
         border-radius: 5px;
         border: 1px solid #F8F8F8;
@@ -221,9 +221,9 @@
     form{
         background-color: #232323;
         box-shadow: 0 0 10px 5px #191919;
-        width:540px;
-        height: 60%;
-        padding: 10px 10px 0 10px;
+        width:610px;
+        height: 100%;
+        padding: 10px 10px 10px 10px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 35px;
@@ -270,7 +270,7 @@
     	padding-bottom: 10px;
     }
     .social_icon a i{
-    	margin-top: 10px;
+    	margin-top: 10px;-
     	color: black;
     }
     footer{
@@ -313,7 +313,7 @@
      	box-sizing: border-box;
      	margin-bottom: 30px;
         padding-top: 20px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
      }
      @media only screen and (max-width: 768px) {
      	.lets_work{
@@ -328,10 +328,10 @@
 
      	}
      	nav ul li a{
-     		font-size: 10px;
+     		font-size: 15px;
      	}
      	nav ul{
-     		margin-right: 15px;
+     		margin-right: 9px;
      	}
      	nav ul li{
      				margin-right: 5px;
@@ -379,9 +379,9 @@
 		form{
         background-color: #232323;
         box-shadow: 0 0 10px 5px #191919;
-        width:440px;
-        height: 40%;
-        padding: 10px 10px 0 10px;
+        width:540px;
+        height: 90%;
+        padding: 10px 10px 10px 10px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 35px;
@@ -391,29 +391,30 @@
     }
      input{
         margin-right: 10px;
-        width: 200px;
+        width: 260px;
         height: 25px;
         border-radius: 5px;
         border: 1px solid #F8F8F8;
         background-color: #eaeaea;
     }
      textarea{
-        width: 420px;
+        width: 530px;
         height: 180px;
         border-radius: 5px;
         background-color: #eaeaea;
     }.lets_work h1{
-    	font-size: 20px;
+    	font-size: 25px;
      }
      .lets_work p{
      	width: 300px;
      	text-align: center;
-     	font-size: 5px;
+     	font-size: 20px;
  }
 }
 
      .lets_work h1{
      	margin-right: 0px;
+        font-size: 35px;
      }
      .lets_work p{
      	width: 300px;
