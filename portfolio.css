@@ -5,6 +5,8 @@
 		*{
 			margin: 0;
 			padding: 0;
+			left: 0;
+			right: 0;
 		}
 		.man_img{
 			width: 40vw;
@@ -55,6 +57,7 @@
 			/*display: inline;*/
 			display: flex;
 			justify-content: center;
+			left: 0;
 			align-items: center;
 			padding-top: 50px;
 			height: 100vh;
@@ -134,10 +137,10 @@
 		}
 		.skill_img{
 			display: flex;
-			align-items: center;
-			justify-content: center;
+			margin-right: auto;
+			margin-left: auto;
 			margin-top: 0px;
-			width: 100%
+			width: 50%
 		}
 		.skill h1{
 			text-align: center;
@@ -379,12 +382,13 @@
     	margin-right: auto;
     	height: 30px;
     	margin-left: auto;
-    	font-size: 20px;
+    	font-size: 15px;
     	margin-bottom: 15px;
     	background: white;
     	width: 150px;
     	border-radius: 20px;
     	color: #6D83F2;
+    	padding-top: 10px;
     }
      	.do_btn{
      		margin-top: 10px;
@@ -430,7 +434,7 @@
 		form{
         background-color: #232323;
         box-shadow: 0 0 10px 5px #191919;
-        width:440px;
+        width: 80%;
         height: 40%;
         padding: 10px 10px 0 10px;
         margin-left: auto;
@@ -442,14 +446,14 @@
     }
      input{
         margin-right: 10px;
-        width: 200px;
+        width: 180px;
         height: 25px;
         border-radius: 5px;
         border: 1px solid #F8F8F8;
         background-color: #eaeaea;
     }
      textarea{
-        width: 420px;
+        width: 380px;
         height: 180px;
         border-radius: 5px;
         background-color: #eaeaea;
